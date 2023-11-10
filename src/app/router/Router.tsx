@@ -4,17 +4,16 @@ import {
   createRoutesFromElements
 } from "react-router-dom";
 
-import { Home, PageNotFound } from "./pages";
-import Layout from "../Layout";
-import Login from "./pages/Login";
+import RootLayout from "./layouts/RootLayout";
+import Home from "./pages/Home";
+import PageNotFound from "./pages/PageNotFound";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/" element={<Layout />}>
+      <Route path="/" element={<RootLayout />}>
         {/* nested routes */}
         <Route path="" element={<Home />} />
-        <Route path="login" element={<Login />} />
         {/* Other Routes to be configured here */}
       </Route>
       <Route path="*" element={<PageNotFound />} />
