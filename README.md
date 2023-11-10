@@ -1,13 +1,7 @@
-# Vite-React-Typescript-Tailwind
+# Personal Portfolio Website
 
-This is a template repository to create a project using Vite, React, Typescript, and TailwindCSS. It comes with a built-in dark-mode switcher for the website!
+This is my Personal Porfolio website to showcase my Coding and Development skills. It is built using **React, Typescript, ThreeJS, React Three Fiber, Framer Motion, Tailwind, EmailJS**, and much more...!
 
-Get started:
+*I have also implemented **3-D Modelling*** in this website along with Nice Animations.
 
-```console
-gh repo create [my-app] --public --template=https://github.com/vaibhavc2/vite-react-ts-tailwind.git
-git clone [github-url]
-cd my-app
-npm i
-npm run dev
-```
+✅ Do check it Out: [Portfolio-Link](https://www.google.com)
